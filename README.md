@@ -8,14 +8,18 @@ Welcome to the DriveGroups project! This guide will help you run the DriveGroups
  - PgAdmin 4 - useful for creating and managing databases. Install using Homebrew: `brew install --cask pgadmin4`
  - Dbeaver - better for inspecting the contents of databases. Install using Homebrew: `brew install --cask dbeaver-community`
  - IntelliJ Idea - the best IDE for Spring Boot. Install the JetBrains Toolbox, Install IntelliJ: `brew install --cask jetbrains-toolbox`
+    - Register for a student license to get the better version for free. (It's worth it)
 
 ## Optional Software
  - Postman - helpful for debugging APIs. Very friendly user interface. Install using Homebrew: `brew install --cask postman`
 
 ## Database Setup - Everything below this is a WIP
 1. Add the new server
-2. Create a new user named `development` with password `devdb`
-3. Create a new database named `driveGroups`
+    - Use hostname `localhost`
+    - Username: your Mac's user account (check your terminal prompt)
+    - No password
+3. Create a new user named `development` with password `devdb`
+4. Create a new database named `driveGroups`
 
 ## Clone this Repository
 1. TBD
