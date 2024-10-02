@@ -32,6 +32,13 @@ public class DriveGroup {
         this.parent = parent;
     }
 
+    public DriveGroup(String name, User owner) {
+        this.name = name;
+        this.owner = owner;
+        this.archived = false;
+        this.parent = null;
+    }
+
     public String getId() {
         return id;
     }

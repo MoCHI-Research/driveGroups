@@ -30,7 +30,9 @@ public class WebSecurityConfig {
         http.cors(Customizer.withDefaults()).authorizeHttpRequests((requests) -> requests
                         .requestMatchers(
                                 // Add to this list for URLS to be ignored by security.
-                                "/test"
+                                "/test",
+                                "/myTest",
+                                "printNewGroup"
                         ).permitAll()
                         .anyRequest().authenticated())
                 .csrf(AbstractHttpConfigurer::disable); //TODO: This should not be disabled in production
