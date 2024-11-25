@@ -1,4 +1,4 @@
-# DriveGroups Backend Installation Guide
+# DriveGroups
 Welcome to the DriveGroups project! DriveGroups is a google add-on built to assist academic researchers with file-sharing.
 
 ## Presentation on System Design
