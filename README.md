@@ -1,29 +1,8 @@
 # DriveGroups Backend Installation Guide
-Welcome to the DriveGroups project! This guide will help you run the DriveGroups backend on your machine. The backend consists of a Spring Boot API and a PostgreSQL database.
+Welcome to the DriveGroups project! DriveGroups is a google add-on built to assist academic researchers with file-sharing.
 
-## Recommended Software
- - Homebrew for Macs - useful for installing other software. [Install Here](https://brew.sh/).
- - PostgreSQL - the databse used in this project. Install using Homebrew: `brew install postgresql@14`
-     - When Homebrew asks if you want to make this a service, make sure to say yes. This will make sure you don't have to start it every time you use your computer. The battery life impact is negligible.
- - PgAdmin 4 - useful for creating and managing databases. Install using Homebrew: `brew install --cask pgadmin4`
- - Dbeaver - better for inspecting the contents of databases. Install using Homebrew: `brew install --cask dbeaver-community`
- - IntelliJ Idea - the best IDE for Spring Boot. Install the JetBrains Toolbox, Install IntelliJ: `brew install --cask jetbrains-toolbox`
-    - Register for a student license to get the better version for free. (It's worth it)
+## Presentation on System Design
+[DriveGroups NY6 Presentation 2024.pdf](https://github.com/user-attachments/files/17905835/DriveGroups.NY6.Presentation.2024.pdf)
 
-## Optional Software
- - Postman - helpful for debugging APIs. Very friendly user interface. Install using Homebrew: `brew install --cask postman`
-
-## Database Setup - Everything below this is a WIP
-1. Add the new server
-    - Use hostname `localhost`
-    - Username: your Mac's user account (check your terminal prompt)
-    - No password
-3. Create a new user named `development` with password `devdb`
-4. Create a new database named `driveGroups`
-
-## Clone this Repository
-1. TBD
-
-## IntelliJ Setup
-1. Open IntelliJ
-2. Open th
+## Presentation on User Studies
+[DriveGroups NY6.pptx.pdf](https://github.com/user-attachments/files/17905841/DriveGroups.NY6.pptx.pdf)
